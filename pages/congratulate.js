@@ -38,8 +38,8 @@ const congradulate = (props) => (
         </div>
     </div>
     <style jsx>{`
-            .main-content{
-                z-index:20;
+            body{
+                overflow-x:hidden !important;
             }
             .main-wrapper{
                 display: flex;
@@ -69,6 +69,7 @@ const congradulate = (props) => (
                 position:absolute;
                 transform: rotate(31.17deg);
                 left: 120px;
+                
             }
             .rect1{
                 position: absolute;

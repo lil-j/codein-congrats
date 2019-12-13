@@ -13,7 +13,7 @@ export default function Index() {
           <div className="get-name text-center">
               <Typography variant="h3" gutterBottom>Google Code-In Congratulation Template</Typography>
               <Typography variant="subtitle1" gutterBottom>For the purposes of this concept, please enter your name.</Typography>
-              <form action="/congradulate" method="get"><TextField type="congradulate" name="c" id="standard-basic" label="Name" /> <Button variant="outlined" type="submit" color="primary" style={{transform:"translate(0,12px)"}}>Go</Button></form>
+              <form action="/congratulate" method="get"><TextField type="congratulate" name="c" id="standard-basic" label="Name"/> <Button variant="outlined" type="submit" color="primary" style={{transform:"translate(0,12px)"}}>Go</Button></form>
           </div>
       </div>
 
